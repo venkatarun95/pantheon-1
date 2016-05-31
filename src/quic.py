@@ -38,7 +38,7 @@ def setup():
     check_call(cmd, shell=True)
 
     # generate a html of size that can be transferred longer than 10 seconds 
-    generate_html(300000)
+    generate_html(300)
 
 def main():
     # find paths of this script, find_unused_port and scheme source to run
